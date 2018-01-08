@@ -128,8 +128,11 @@ header li:active {
 
 .side-menu li:hover {
    cursor: pointer;
-
-   color: #dddddd;
+   background-color: #376161;
+   transform: translate(6px, 0px);
+   margin-right: 6px;
+   margin-left: -6px;
+   border-left: solid 6px #189d9d;
 }
 
 .side-menu li:active {
@@ -137,9 +140,13 @@ header li:active {
 }
 
 .side-menu li:last-child {
-   border: none;
-   border-bottom-right-radius: 10px;
+   border-bottom: none;
+}
+
+.side-menu li:last-child:hover {
+   border-bottom: none;
    border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 
 .num-box-container {
